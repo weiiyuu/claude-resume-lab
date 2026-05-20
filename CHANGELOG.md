@@ -10,11 +10,25 @@
 ## [Unreleased]
 
 ### 待辦
-- 部署到 GitHub Pages
 - 補上 favicon、Open Graph meta 標籤
 - 加入手機版漢堡選單
+- 設定自訂網域（可選）
 
 詳見 [TODO.md](./TODO.md)。
+
+---
+
+## [0.5.0] — 2026-05-20
+
+### Deployed 🚀
+- **正式部署上線**：[https://weiiyuu.github.io/claude-resume-lab/](https://weiiyuu.github.io/claude-resume-lab/)
+- 透過 GitHub Pages 部署，使用 `main` 分支 `/(root)` 作為 source
+- 自動啟用 HTTPS
+
+### Changed
+- `README.md` 新增「線上預覽」區塊與 Live Demo badge
+- `README.md` 部署章節更新為「已部署」狀態
+- `README.md` 聯絡方式補上線上履歷網址
 
 ---
 

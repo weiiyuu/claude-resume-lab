@@ -2,6 +2,7 @@
 
 > 一份用純 HTML / CSS / JavaScript 打造的科技風個人履歷網站，不依賴任何前端框架。
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Online-success?style=flat&logo=githubpages&logoColor=white)](https://weiiyuu.github.io/claude-resume-lab/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -9,8 +10,18 @@
 
 ---
 
+## 🚀 線上預覽
+
+**👉 [https://weiiyuu.github.io/claude-resume-lab/](https://weiiyuu.github.io/claude-resume-lab/)**
+
+> 本網站已透過 GitHub Pages 部署上線，歡迎直接點上方連結瀏覽。
+> 行動裝置與桌面瀏覽器皆已測試。
+
+---
+
 ## 目錄
 
+- [線上預覽](#-線上預覽)
 - [專案目的](#專案目的)
 - [功能特色](#功能特色)
 - [技術棧](#技術棧)
@@ -119,6 +130,8 @@ npx serve .
 
 ## 部署到 GitHub Pages
 
+> ✅ **本專案已部署上線**：[https://weiiyuu.github.io/claude-resume-lab/](https://weiiyuu.github.io/claude-resume-lab/)
+
 只要靜態檔案，部署超簡單：
 
 ### Step 1. 推上 GitHub
@@ -187,6 +200,7 @@ https://<你的帳號>.github.io/<repo 名稱>/
 
 ## 聯絡方式
 
+- **線上履歷**：[https://weiiyuu.github.io/claude-resume-lab/](https://weiiyuu.github.io/claude-resume-lab/)
 - **Email**：claude@winlab.tw
 - **背景**：輔仁大學統計資訊學系畢業 · AI 新秀計畫學員
 
