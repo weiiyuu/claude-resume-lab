@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>張維宇 | Wei-Yu Chang — Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>
+      <span class="logo-text">WY.Chang</span>
+      <span class="logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="about">
+    <div class="hero-content">
+      <p class="hero-greeting">// Hello, world. I am</p>
+      <h1 class="hero-name">張維宇</h1>
+      <h2 class="hero-title">
+        <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        輔仁大學統計資訊學系畢業 · AI 新秀計畫學員<br />
+        專注於 <span class="highlight">LLM 應用</span>、<span class="highlight">RAG 系統</span> 與 <span class="highlight">自動化 Pipeline</span> 開發
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">查看專案</a>
+        <a href="#contact" class="btn btn-outline">聯絡我</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+      <p>Scroll</p>
+    </div>
+  </header>
+
+  <section class="section" id="skills">
+    <div class="section-header">
+      <span class="section-num">01.</span>
+      <h2 class="section-title">Skills</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+      <a href="skill.html?id=python" class="skill-card" data-category="Language">
+        <div class="skill-icon">{ }</div>
+        <h3>Python</h3>
+        <p>資料處理、Pipeline 開發、API 整合</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+      <a href="skill.html?id=llm" class="skill-card" data-category="AI/ML">
+        <div class="skill-icon">◈</div>
+        <h3>LLM 應用</h3>
+        <p>Gemini API、Prompt Engineering</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+      <a href="skill.html?id=rag" class="skill-card" data-category="AI/ML">
+        <div class="skill-icon">⟁</div>
+        <h3>RAG</h3>
+        <p>Embedding、向量檢索、GraphRAG</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+      <a href="skill.html?id=n8n" class="skill-card" data-category="Automation">
+        <div class="skill-icon">⚙</div>
+        <h3>n8n 自動化</h3>
+        <p>Workflow 設計、API 串接</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+      <a href="skill.html?id=data" class="skill-card" data-category="Data">
+        <div class="skill-icon">▦</div>
+        <h3>資料處理</h3>
+        <p>清洗、ETL、結構化轉換</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+      <a href="skill.html?id=testing" class="skill-card" data-category="Quality">
+        <div class="skill-icon">✓</div>
+        <h3>後端測試</h3>
+        <p>單元測試、整合測試</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+      <a href="skill.html?id=git" class="skill-card" data-category="DevOps">
+        <div class="skill-icon">⎇</div>
+        <h3>Git</h3>
+        <p>版本控制、協作開發</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+      <a href="skill.html?id=docker" class="skill-card" data-category="DevOps">
+        <div class="skill-icon">▢</div>
+        <h3>Docker</h3>
+        <p>容器化部署、環境管理</p>
+        <span class="skill-more">查看詳情 →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-header">
+      <span class="section-num">02.</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-list">
+      <article class="project-card">
+        <div class="project-index">P/01</div>
+        <div class="project-body">
+          <h3 class="project-title">AI 自動化新聞分析系統</h3>
+          <p class="project-desc">
+            以 Python pipeline 串接 n8n 工作流，自動蒐集多來源新聞，透過 Gemini API 進行內容分析與摘要，最後寫入 Supabase 並輸出結構化報告。整體流程可定時觸發、可追蹤、可擴充。
+          </p>
+          <ul class="project-tags">
+            <li>Python</li>
+            <li>n8n</li>
+            <li>Gemini API</li>
+            <li>Supabase</li>
+            <li>Pipeline</li>
+          </ul>
+          <a href="project.html?id=news-ai" class="project-cta">
+            查看完整介紹 <span class="arrow">→</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-index">P/02</div>
+        <div class="project-body">
+          <h3 class="project-title">Calcium Imaging Denoising</h3>
+          <p class="project-desc">
+            針對生物螢光影像進行去噪任務，理解 2D / 3D U-Net 架構與 patch-based training 流程，並使用 sSNR、tSNR、stSNR 等指標客觀評估模型表現，協助實驗訊號重建。
+          </p>
+          <ul class="project-tags">
+            <li>U-Net</li>
+            <li>2D / 3D CNN</li>
+            <li>Patch Training</li>
+            <li>SNR Metrics</li>
+            <li>BioImage</li>
+          </ul>
+          <a href="project.html?id=denoising" class="project-cta">
+            查看完整介紹 <span class="arrow">→</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-index">P/03</div>
+        <div class="project-body">
+          <h3 class="project-title">RAG / GraphRAG Lab</h3>
+          <p class="project-desc">
+            建立檢索增強生成流程：使用 embedding 模型建立向量索引、Chroma 作為向量庫、Neo4j 儲存知識圖譜關聯，並以 vLLM 提供高效能推論服務，比較傳統 RAG 與 GraphRAG 在問答任務上的差異。
+          </p>
+          <ul class="project-tags">
+            <li>Embedding</li>
+            <li>Chroma</li>
+            <li>Neo4j</li>
+            <li>vLLM</li>
+            <li>GraphRAG</li>
+          </ul>
+          <a href="project.html?id=rag-lab" class="project-cta">
+            查看完整介紹 <span class="arrow">→</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="section-header">
+      <span class="section-num">03.</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-box">
+      <p class="contact-lead">
+        感謝您看到這裡。<br />
+        若有 <span class="highlight">實習機會</span> 或 <span class="highlight">技術交流</span>，歡迎與我聯絡。
+      </p>
+      <div class="contact-card">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">contact.sh</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> <span class="cmd">whoami</span></p>
+          <p class="output">張維宇 (Wei-Yu Chang)</p>
+          <p><span class="prompt">$</span> <span class="cmd">cat status.txt</span></p>
+          <p class="output">尋找 AI / 後端 / 資料相關實習中</p>
+          <p><span class="prompt">$</span> <span class="cmd">echo $LOCATION</span></p>
+          <p class="output">Taiwan</p>
+          <p><span class="prompt">$</span> <span class="cmd">./send_message --to wy</span></p>
+          <p class="output">→ 歡迎透過下方按鈕來信</p>
+        </div>
+      </div>
+      <a href="mailto:claude@winlab.tw" class="btn btn-primary btn-large">寄送訊息</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> 張維宇 · Built with HTML / CSS / JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
